@@ -1,1 +1,1 @@
-# landing-page
+This project will further strengthen my understanding of HTML and CSS as I utlize Flexbox to design the landing page layout
