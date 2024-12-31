@@ -1,8 +1,5 @@
 * {
     font-family: 'Roboto';
-    outline: red;
-    outline-style: solid;
-    outline-width: 1px;
 }
 
 body {
@@ -62,10 +59,12 @@ a,
 }
 
 button {
+    all: unset;
     background-color: #3882f6;
     color: #F9FAF8;
-    padding: 5px 20px;
-    border-radius: 10px;
+    padding: 5px 30px;
+    border-radius: 8px;
+    margin-top: 10px;
 }
 
 ul {
@@ -74,4 +73,34 @@ ul {
     padding: 0px;
     margin: 0px;
     gap: 20px;
+}
+
+.info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1f2937;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    color: #E5E7EB;
+}
+
+.img div {
+    width: 150px;
+    height: 150px;
+    outline-color: #3882f6;
+    outline-style: solid;
+    outline-width: 4px;
+    border-radius: 8px;
 }
