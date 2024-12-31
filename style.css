@@ -54,11 +54,11 @@ a,
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: #e5e7eb;
     color: #E5E7EB;
 }
 
-button {
+.head-btn {
     all: unset;
     background-color: #3882f6;
     color: #F9FAF8;
@@ -125,4 +125,44 @@ ul {
 .author {
     text-align: right;
     font-weight: bold;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.action-two {
+    box-sizing: border-box;
+    display: flex;
+    width: 820px;
+    background-color: #3882f6;
+    padding: 40px 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-txt {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.action-subtxt {
+    color: #e5e7eb;
+}
+
+.sign-up {
+    all: unset;
+    padding: 5px 30px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
 }
