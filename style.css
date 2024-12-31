@@ -17,9 +17,8 @@ a {
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 500px;
     color: #F9FAF8;
     background-color: #1F2937;
     padding: 20px 0px
